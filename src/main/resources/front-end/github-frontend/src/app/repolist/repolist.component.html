@@ -1,0 +1,15 @@
+<div class="container-fluid">
+  <div class="container-fluid d-flex flex-wrap my-2">
+    <div class="card col-sm-12 col-md-4 col-lg-3" style="width: 18rem;" *ngFor="let repo of newJsonObject">
+ 
+      <div class="card-body">
+        <h5 class="card-title">{{repo.name}}</h5>
+        <p class="card-text">{{repo.description}}</p>
+        <p class="card-body">
+          <button class="btn btn-primary"  (click)="deleteFromWishlist(repo.name)">Delete Repository</button><br><br>
+          <button class="btn btn-primary"  (click)="updateRepoDescription(repo.name)">Update description </button>
+        </p>
+      </div>
+      </div>
+      </div>
+      </div>

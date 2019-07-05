@@ -1,0 +1,13 @@
+#mysearch {
+    margin-left: 25px;
+}
+
+.navUl {
+    margin-left: 800px;
+     float: right;
+}
+.createRepo{
+    border-style: solid;
+    border-color: black;
+    color: aliceblue;
+}

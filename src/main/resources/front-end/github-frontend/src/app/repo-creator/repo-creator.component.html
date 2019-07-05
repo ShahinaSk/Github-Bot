@@ -1,0 +1,14 @@
+
+<div style="text-align:center">
+  
+  Repository name:
+  <br/>
+  <input  type="text" #ref name="repo-name" >
+  <br/>
+  Description:
+  <br/>
+  <input type="text" #ref1 name="repo-description">
+  <br/>
+  <br/>
+  <button (click)="createRepo(ref.value,ref1.value)">create repository</button>
+</div>
